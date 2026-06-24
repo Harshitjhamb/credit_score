@@ -37,7 +37,7 @@ if st.button("🧠 Analyze Application Risk", type="primary", use_container_widt
         
         try:
             # 2. Send the data to your locally running FastAPI server
-            response = requests.post("http://127.0.0.1:8000/predict", json=payload)
+            response = requests.post("https://credit-score-1-fk5a.onrender.com/predict", json=payload)
             response.raise_for_status()
             result = response.json()
             
