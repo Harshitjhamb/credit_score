@@ -1,8 +1,6 @@
 import streamlit as st
 import requests
 import time
-
-# Configure the page to look like a modern dashboard
 st.set_page_config(page_title="Credit Risk AI", page_icon="🏦", layout="centered")
 
 st.title("🏦 AI Credit Risk Portal")
